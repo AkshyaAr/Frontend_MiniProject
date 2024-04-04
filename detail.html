@@ -8,14 +8,29 @@
 <div>
     <!-- img
     //header name -->
-<img src="..\assests\images\logo.png"  alt="logo">
-<a href="login.html" target="_blank">Login</a>
+    <a href="index.html">
+        <img src="..\assests\images\logo.png"  alt="logo">
+        </a>
+<a href="login.html">Login</a>
 
 </div>
 <div id="detailimg1">
     <!-- //content -->
     <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
     <p><a href="payment.html">Book Now</a></p>
+    <form action="payment.html" autocomplete="off">
+        <label for="adult">Adults:</label>
+        <input type="number" id="adult" name="adult" min="1" value="1" required><br>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="fromdate">From Date:</label>       
+        <input type="date" id="fromdate" name="fromdate" required min="2024-04-01"><br>
+        <label for="todate">To Date:</label>
+        <input type="date" id="todate" name="todate" required min="2024-04-01" max="2024-12-31"><br>
+        <label for="price">Total:</label>
+        <input type="text" id="price" name="price" readonly><br>
+        <input type="submit" value="Book Now">
+    </form>
     <p><h3><b>Radisson Blu Hotel</b></h3></p>
     <p>RATING</p>
     <p>5 Star</p>
@@ -32,7 +47,7 @@
 </div>
 <div id="detailimg2">
     <!-- //Footer -->
-    <p><a href="contact.html" target="_blank">Contact Us</a></p>
+    <p><a href="contact.html">Contact Us</a></p>
     <p><a href="https://www.facebook.com" target="_blank"><img src="assests/images/facebook.png" width= "24px" height="24px"></a><a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png" height="2px" width="2px"></a><a href="https://twitter.com" target="_blank" ><img src="assests/images/twitter.png" height="2px" width="2px"></a></p>
     <p>© 2020 Room Search PVT LTD</p>
 </div>
