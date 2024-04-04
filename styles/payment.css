@@ -1,8 +1,13 @@
 img {
-    height: 200px;
-    width: 150px;
+    height: 60px;
+    width: 60px;
     }
-    #pmtimg1 img { height: auto;
-        width: auto; } 
+    #pmtimg1 img { height: 500px;
+        width: 500px; } 
         #pmtimg2 img { height: 20px;
             width: 22px; }
+            #bodyppty{
+                height: 700px;
+                position: relative;
+                left: 10px;
+            }

@@ -1,8 +1,13 @@
 img {
-    height: 200px;
-    width: 150px;
+    height: 60px;
+    width: 60px;
     }
-    #detailimg1 img { height: auto;
-        width: auto; } 
+    #detailimg1 img { height: 500px;
+        width: 500px; } 
         #detailimg2 img { height: 20px;
             width: 22px; }
+            #bodyppty{
+                height: 700px;
+                position: relative;
+                left: 10px;
+            }

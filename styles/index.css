@@ -1,9 +1,14 @@
 img {
-    height: 200px;
-    width: 150px;
+    height: 60px;
+    width: 60px;
     }
     
     #footer img { height: 20px;
         width: 22px; } 
-        #indeximg1 img { height: 300px;
-            width: 300px; } 
+        #indeximg1 img { height: 150px;
+            width: 150px; } 
+            #bodyppty{
+                height: 700px;
+                position: relative;
+                left: 10px;
+            }
