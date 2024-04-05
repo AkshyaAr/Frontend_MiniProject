@@ -1,18 +1,33 @@
 img {
     height: 60px;
     width: 60px;
+    
     }
 
     #listimg1 img { height: 150px;
-        width: 150px; } 
+        width: 150px;  
+        
+    } 
         #listimg2 img { height: 20px;
-            width: 22px; }
-            #bodyppty{
-                height: 700px;
+            width: 22px;
+             }
+            #listbody{
                 position: relative;
-                left: 10px;
+                margin: 0;
+                background-color:#e0e0e0;
+            }
+            .cntppty{
+                margin:2% 2% 2% 2%;
+                background-color: rgb(132,136,139);
+                width: 40%;
             }
             #mapimg img{
                 height: auto;
                 width: auto;
+            }
+            header{
+                background-color: rosybrown;
+            }
+            footer{
+                background-color: rosybrown;
             }

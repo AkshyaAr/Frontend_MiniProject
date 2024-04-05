@@ -7,7 +7,26 @@ img {
         #detailimg2 img { height: 20px;
             width: 22px; }
             #bodyppty{
-                height: 700px;
                 position: relative;
-                left: 10px;
+                background-color:#e0e0e0;
+                margin: 0%;
+            }
+            #detailimg1{
+                margin-top: 2%;
+                margin-left: 4%;
+                margin-right: 4%;
+                
+            }
+            #formppty{
+                margin-bottom: 1%;
+            }
+            #detailppty{
+                margin-bottom: 2%;
+            }
+            header
+            {
+                background-color: rosybrown;
+            }
+            footer{
+                background-color: rosybrown;
             }

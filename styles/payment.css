@@ -3,11 +3,37 @@ img {
     width: 60px;
     }
     #pmtimg1 img { height: 500px;
-        width: 500px; } 
+        width: 500px;
+         } 
+        #pmtimg1{
+            background-color: rgb(132,136,139);
+            margin-left: 25%;
+            margin-right: 25%;
+            margin-top: 2%;
+            margin-bottom: 2%;
+        }
         #pmtimg2 img { height: 20px;
             width: 22px; }
             #bodyppty{
-                height: 700px;
+            
                 position: relative;
-                left: 10px;
+                background-color: #e0e0e0;
+
+            }
+            #custdetail{
+                margin: 2% 2% 2% 2%;
+            }
+            #totalinf{
+                margin: 2%;
+                border-radius:5px;
+  border: 1px solid black;
+  padding: 1% 2% 1% 2%;
+  margin: 20px;
+
+            }
+            header{
+background-color: rosybrown;
+            }
+            footer{
+background-color: rosybrown;
             }
