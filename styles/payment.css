@@ -1,6 +1,7 @@
 img {
     height: 60px;
     width: 60px;
+    padding: 2px;
     }
     #pmtimg1 img { height: 500px;
         width: 500px;
@@ -18,6 +19,7 @@ img {
             
                 position: relative;
                 background-color: #e0e0e0;
+                font-family: sans-serif;
 
             }
             #custdetail{
@@ -36,4 +38,8 @@ background-color: rosybrown;
             }
             footer{
 background-color: rosybrown;
+            }
+            .container1{
+                display: flex;
+                padding: 2% 0% 0% 0%;
             }

@@ -1,11 +1,11 @@
 img {
     height: 60px;
     width: 60px;
-    
+    padding: 2px;
     }
 
-    #listimg1 img { height: 150px;
-        width: 150px;  
+    #listimg1 img { height: 50%;
+        width: 50%;  
         
     } 
         #listimg2 img { height: 20px;
@@ -15,11 +15,15 @@ img {
                 position: relative;
                 margin: 0;
                 background-color:#e0e0e0;
+                font-family: sans-serif;
             }
             .cntppty{
-                margin:2% 2% 2% 2%;
+                margin:2% 5% 5% 5%;
                 background-color: rgb(132,136,139);
                 width: 40%;
+                height: 50%;
+                text-align: justify;
+               
             }
             #mapimg img{
                 height: auto;
@@ -30,4 +34,16 @@ img {
             }
             footer{
                 background-color: rosybrown;
+            }
+            .container{
+                display: flex;
+                margin-right: 20px;
+            }
+            .container > div{
+                margin: 5px;
+  padding: 10%;
+            }
+            .container1{
+                display: flex;
+                padding: 2% 0% 0% 0%;
             }

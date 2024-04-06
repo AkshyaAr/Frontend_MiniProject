@@ -1,6 +1,7 @@
 img {
     height: 60px;
     width: 60px;
+    padding: 2px;
     }
     #detailimg1 img { height: 500px;
         width: 500px; } 
@@ -10,12 +11,13 @@ img {
                 position: relative;
                 background-color:#e0e0e0;
                 margin: 0%;
+                font-family: sans-serif;
             }
             #detailimg1{
                 margin-top: 2%;
                 margin-left: 4%;
                 margin-right: 4%;
-                
+
             }
             #formppty{
                 margin-bottom: 1%;
@@ -29,4 +31,8 @@ img {
             }
             footer{
                 background-color: rosybrown;
+            }
+            .container1{
+                display: flex;
+                padding: 2% 0% 0% 0%;
             }

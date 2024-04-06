@@ -8,11 +8,14 @@
 <header>
     <!-- img
     //header name -->
-    <a href="index.html">
-        <img src="..\assests\images\logo.png"  alt="logo">
-        </a>
-<a href="login.html">Login</a>
-</header>
+    <div style="display: flex;">
+        <div>
+            <img src="..\assests\images\logo.png"  alt="logo"></div>
+            <div style="margin-left: 90%;margin-top: 20px;">
+        <a href="login.html" style="text-decoration: none; color: black;" >Login</a>
+        </div>
+        </div>
+    </header>
 <section id="pmtimg1">
     <!-- //content -->
     <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
@@ -21,21 +24,31 @@
     <p>National Highway 8,New Delhi 110017 India</p>
 </section>
 <section id="custdetail">
-    <p><b>Name:</b>John Doe</p>
-    <p><b>Number of Adults:</b>2</p>
-    <p><b>Check-in Date:</b>06/08/2020</p>
-    <p><b>Check-out Date:</b>10/08/2020</p>
+    <p><b>Name: </b>John Doe</p>
+    <p><b>Number of Adults: </b>2</p>
+    <p><b>Check-in Date: </b>06/08/2020</p>
+    <p><b>Check-out Date: </b>10/08/2020</p>
     <section id="totalinf">
-    <p><b>Tariff Breakdown:</b>Rs 1000 X 2 Adults X 5 nights</p>
-    <p><b>Total Amount:</b>Rs 10000</p>
+    <p><b>Tariff Breakdown: </b>Rs 1000 X 2 Adults X 5 nights</p>
+    <p><b>Total Amount: </b>Rs 10000</p>
 </section>
-    <a href="payment.html">Pay Now</a>
+    <a href="payment.html" style="text-decoration: none; color: black;">Pay Now</a>
 </section>
 <footer id="pmtimg2">
     <!-- //Footer -->
-    <a href="contact.html">Contact Us</a><br>
-    <a href="https://www.facebook.com" target="_blank"> <img src="assests/images/facebook.png"></a> <a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png"></a> <a href="https://twitter.com" target="_blank" ><img src="assests/images/twitter.png"></a><br>
-    © 2020 Room Search PVT LTD
+    <div class="container1">
+        <div id="contact">
+            <a href="contact.html" style="text-decoration: none; color: black;">Contact Us</a>
+        </div>
+        <div style="margin-left: 90%;display: flex;">
+            <div>
+     <a href="https://www.facebook.com" target="_blank">
+             <img src="assests/images/facebook.png"></a> </div>
+              <div> <a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png"></a> </div>
+                <div><a href="https://twitter.com" target="_blank"><img src="assests/images/twitter.png"></a></div> 
+    </div>
+    </div>
+    <p style="text-align: center;">© 2020 Room Search PVT LTD</p>
 </footer>
 </section>
 </body>
