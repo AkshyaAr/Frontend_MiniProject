@@ -2,37 +2,80 @@ img {
     height: 60px;
     width: 60px;
     padding: 2px;
-    }
-    #detailimg1 img { height: 500px;
-        width: 500px; } 
-        #detailimg2 img { height: 20px;
-            width: 22px; }
-            #bodyppty{
-                position: relative;
-                background-color:#e0e0e0;
-                margin: 0%;
-                font-family: sans-serif;
-            }
-            #detailimg1{
-                margin-top: 2%;
-                margin-left: 4%;
-                margin-right: 4%;
+}
 
-            }
-            #formppty{
-                margin-bottom: 1%;
-            }
-            #detailppty{
-                margin-bottom: 2%;
-            }
-            header
-            {
-                background-color: rosybrown;
-            }
-            footer{
-                background-color: rosybrown;
-            }
-            .container1{
-                display: flex;
-                padding: 2% 0% 0% 0%;
-            }
+#detailimg1 img {
+    height: 500px;
+    width: 500px;
+}
+
+#detailimg2 img {
+    height: 20px;
+    width: 22px;
+}
+
+#bodyppty {
+    position: relative;
+    background-color: #e0e0e0;
+    margin: 0%;
+}
+
+#detailimg1 {
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+
+}
+
+#detailppty {
+    margin-bottom: 2%;
+}
+
+header {
+    background-color: rosybrown;
+}
+
+.container1 {
+    display: flex;
+    padding: 2% 0% 0% 0%;
+}
+
+.formrow {
+    padding-bottom: 20px;
+    font-size: 14;
+}
+
+.input {
+    width: 100%;
+}
+
+.footer {
+    background-color: rosybrown;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 10%;
+}
+
+.footer #contact a {
+    height: 30px;
+    width: 70px;
+    margin: 30px;
+}
+
+#social {
+    margin-left: 95%;
+
+}
+
+.socialppty {
+    display: flex;
+
+}
+
+.footer img {
+    height: 20px;
+    width: 22px;
+    margin: 5px;
+}

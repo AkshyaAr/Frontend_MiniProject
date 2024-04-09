@@ -1,71 +1,117 @@
 <html>
+
 <head>
-<link rel="stylesheet" href="styles\detail.css">
-<title>Detail</title>
+    <link rel="stylesheet" href="styles\detail.css">
+    <title>Detail</title>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu&subset=cyrillic,latin' rel='stylesheet' type='text/css' />
+    <style type="text/css">
+        body {
+            font-family: 'Ubuntu', sans-serif;
+        }
+    </style>
 </head>
+
 <body>
-<section id="bodyppty">
-<header>
-    <!-- img
+    <div id="bodyppty">
+        <header>
+            <!-- img
     //header name -->
-    <div style="display: flex;">
-        <div>
-            <img src="..\assests\images\logo.png"  alt="logo"></div>
-            <div style="margin-left: 90%;margin-top: 20px;">
-        <a href="login.html" style="text-decoration: none; color: black;" >Login</a>
+            <div style="display: flex;">
+                <div>
+                    <a href="index.html"><img src="..\assests\images\logo.png" alt="logo"></a>
+                </div>
+                <div style="margin-left: 90%;margin-top: 20px;">
+                    <a href="login.html" style="text-decoration: none; color: black;">Login</a>
+                </div>
+            </div>
+        </header>
+        <div id="detailimg1" style="display: flex; border: 2px solid black;height: 60%;width: 80%;">
+            <!-- //content -->
+            <div style="width: 70%;justify-content: center;">
+                <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
+                    style="height: 99%; margin-left: 50px;">
+            </div>
+            <div id="formppty" style="width: 30%;border-left: 2px solid black;margin-left: 50px; ">
+                <form action="payment.html" autocomplete="off" style="margin: 20px; ">
+                    <div style="display: flex;margin-top: 50px;">
+                        <div style="padding-top: 10px;">
+                            <div class="formrow"><label for="adult">Adults:</label></div>
+                            <div class="formrow"><label for="name">Name:</label></div>
+                            <div class="formrow"><label for="fromdate">From Date:</label> </div>
+                            <div class="formrow"><label for="todate">To Date:</label></div>
+                            <div class="formrow"><label for="price">Total:</label></div>
+
+                        </div>
+                        <div style="text-align: left">
+                            <div class="formrow">
+                                <input class="input" type="number" id="adult" name="adult" min="1" value="1" required><br>
+                            </div>
+                            <div class="formrow">
+                                <input class="input" type="text" id="name" name="name" required><br>
+                            </div>
+                            <div class="formrow">
+                                <input class="input" type="date" id="fromdate" name="fromdate" required min="2024-04-01"><br>
+                            </div>
+                            <div class="formrow">
+                                <input class="input" type="date" id="todate" name="todate" required min="2024-04-01"><br>
+                            </div>
+                            <div class="formrow">
+                                <input class="input" type="text" id="price" name="price" readonly><br>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="formrow" style="margin-left: 70px;"> <input type="submit" value="Book Now">
+                    </div>
+            </div>
+            </form>
         </div>
+        <div id="detailppty" style="margin-left: 50px;">
+            <p>
+            <h3><b>Radisson Blu Hotel</b></h3>
+            </p>
+            <p>RATING</p>
+            <p>5 Star</p>
+            <h4>
+                <p>AMENITIES</p>
+            </h4>
+            <ul>
+                <li>Room Service</li>
+                <li>Restaurant</li>
+                <li>Business Center</li>
+                <li>Fitness Centre</li>
+                <li>Pool</li>
+            </ul>
+            <p>
+            <h4>Description</h4>
+            </p>
+            <p>Your Radisson Blu experience should be all about personalization, every step of the way. By paying close
+                attention to the small details that make a big difference, we inspire unforgettable experiences with
+                every stay. Step into stylish spaces designed for business and leisure in some of the world’s favorite
+                destinations. Our culinary experts strive to deliver cutting edge, stylish, sophisticated gastronomy to
+                every Radisson Blu dining experience.</p>
         </div>
-</header>
-<section id="detailimg1">
-    <!-- //content -->
-    <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
-    <section id="formppty">
-    <form action="payment.html" autocomplete="off">
-        <label for="adult">Adults:</label>
-        <input type="number" id="adult" name="adult" min="1" value="1" required><br>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br>
-        <label for="fromdate">From Date:</label>       
-        <input type="date" id="fromdate" name="fromdate" required min="2024-04-01"><br>
-        <label for="todate">To Date:</label>
-        <input type="date" id="todate" name="todate" required min="2024-04-01"><br>
-        <label for="price">Total:</label>
-        <input type="text" id="price" name="price" readonly><br>
-        <input type="submit" value="Book Now">
-    </form>
-</section>
-<section id="detailppty">
-    <p><h3><b>Radisson Blu Hotel</b></h3></p>
-    <p>RATING</p>
-    <p>5 Star</p>
-    <p>AMENITIES</p>
-    <ul>
-        <li>Room Service</li>
-        <li>Restaurant</li>
-        <li>Business Center</li>
-        <li>Fitness Centre</li>
-        <li>Pool</li>
-    </ul>
-    <p><h5>Description</h5></p>
-    <p>Your Radisson Blu experience should be all about personalization, every step of the way. By paying close attention to the small details that make a big difference, we inspire unforgettable experiences with every stay. Step into stylish spaces designed for business and leisure in some of the world’s favorite destinations. Our culinary experts strive to deliver cutting edge, stylish, sophisticated gastronomy to every Radisson Blu dining experience.</p>
-</section>
-</section>
-<footer id="detailimg2">
-    <!-- //Footer -->
-    <div class="container1">
-        <div id="contact">
-            <a href="contact.html" style="text-decoration: none; color: black;">Contact Us</a>
+        <div class="footer" style="height: 10%;">
+            <div id="contact">
+                <a href="contact.html" style="text-decoration: none; color: black;">Contact Us</a>
+            </div>
+            <div style="text-align: center;">
+                © 2020 Room Search PVT LTD
+            </div>
+            <div class="socialppty">
+                <div>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img src="assests/images/facebook.png" height="20px" width="20px"></a>
+                </div>
+                <div> <a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png"
+                            height="20px" width="20px"></a>
+                </div>
+                <div><a href="https://twitter.com" target="_blank"><img src="assests/images/twitter.png" height="20px"
+                            width="20px"></a></div>
+            </div>
         </div>
-        <div style="margin-left: 90%;display: flex;">
-            <div>
-     <a href="https://www.facebook.com" target="_blank">
-             <img src="assests/images/facebook.png"></a> </div>
-              <div> <a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png"></a> </div>
-                <div><a href="https://twitter.com" target="_blank"><img src="assests/images/twitter.png"></a></div> 
     </div>
-    </div>
-    <p style="text-align: center;">© 2020 Room Search PVT LTD</p>
-</footer>
-</section>
 </body>
+
 </html>

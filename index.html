@@ -1,65 +1,92 @@
 <html>
-<head>
-<link rel="stylesheet" href="styles\index.css">
-<title>Index</title>
-<meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-</head>
-<body>
-    <section id="bodyppty">     
-<header>
-    <!-- img
-    //header name -->
-   
-    <img src="..\assests\images\logo.png"  alt="logo">
-<a href="login.html" style="text-decoration: none; color: black; margin-left:90%; margin-bottom: 20px;" >Login</a>
 
-</header>
-<div id="bodycnt" style="overflow-y:hidden">
-<section id="headimg">
-<input type="text" placeholder="  City" autocomplete="off" style="width: 20%;border-radius: 12px;height: 30px;margin: 10%;border: 0px ;"><br>
-</section>
-    <!-- //content -->
-    <section id="floatimg">
-        <table> 
-            <tr>
-                <div class="row">
-                <td>
-        <a href="list.html">
-        <img alt="New Delhi" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg">
-        </a>
-    </td>
-    <td>
-        <img alt="Goa" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg"></td>
-       <td><img alt="Charminar" src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg"></td> 
-        <td><img alt="Kolkata" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"></td> 
+<head>
+    <link rel="stylesheet" href="styles\index.css">
+    <title>Index</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu&subset=cyrillic,latin' rel='stylesheet' type='text/css' />
+    <style type="text/css">
+        body {
+            font-family: 'Ubuntu', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head">
+        <header>
+            <img src="..\assests\images\logo.png" alt="logo">
+            <a href="login.html"
+                style="text-decoration: none; color: black; margin-left:90%; margin-bottom: 20px;">Login</a>
+
+        </header>
     </div>
-    </tr>
-    </table>
-</section>
-<div class="container">
-<a href="index.html" style="text-decoration: none; color: black;padding:2px;margin-left: 50%;">View More>></a>
-</div>
-</div>
-<footer id="footer">
-    <div class="container1">
-    <div id="contact">
-        <a href="contact.html" style="text-decoration: none; color: black;">Contact Us</a>
+    <div class="bodyppty">
+        <div id="headimg" class="city">
+            <input id="citytext" type="text" placeholder="  City" autocomplete="off"
+                style="width: 20%;border-radius: 12px;height: 30px;margin: 15%;border: 0px ; "><br>
+        </div>
+        <!-- //content -->
+        <div class="floatimg">
+            <div class="row">
+                <a href="list.html">
+                    <img alt="New Delhi" class="image"
+                        src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg"
+                        onmouseover="document.getElementById('sub1').innerHTML='New Delhi'"
+                        onmouseout="document.getElementById('sub1').innerHTML=''">
+                    <div id="sub1" class="overlay">New Delhi</div>
+                </a>
+
+            </div>
+            <div class="row">
+                <img alt="Goa" class="image" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg"
+                    onmouseover="document.getElementById('sub2').innerHTML='Goa'"
+                    onmouseout="document.getElementById('sub2').innerHTML=''">
+                <div id='sub2' class="overlay">Goa</div>
+            </div>
+            <div class="row">
+                <img alt="Charminar" class="image"
+                    src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg"
+                    onmouseover="document.getElementById('sub3').innerHTML='Charminar'"
+                    onmouseout="document.getElementById('sub3').innerHTML=''">
+                <div id='sub3' class="overlay">Charminar</div>
+            </div>
+            <div class="row">
+                <img alt="Kolkata" class="image"
+                    src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"
+                    onmouseover="document.getElementById('sub4').innerHTML='Kolkata'"
+                    onmouseout="document.getElementById('sub4').innerHTML=''">
+                <div id='sub4' class="overlay">Kolkata</div>
+            </div>
+        </div>
+        <div class="container">
+            <a href="index.html" style="text-decoration: none; color: black;padding:5px;margin-left:45%;">View
+                More>></a>
+        </div>
     </div>
-    <div style="margin-left: 90%;display: flex;">
-        <div>
- <a href="https://www.facebook.com" target="_blank">
-         <img src="assests/images/facebook.png"></a> </div>
-          <div> <a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png"></a> </div>
-            <div><a href="https://twitter.com" target="_blank"><img src="assests/images/twitter.png"></a></div> 
-</div>
-</div>
-<p style="text-align: center;">© 2020 Room Search PVT LTD</p>
-</footer>
-</section>
+    <div class="footer">
+        <div id="contact">
+            <a href="contact.html" style="text-decoration: none; color: black;">Contact Us</a>
+        </div>
+        <div style="text-align: center;">
+            © 2020 Room Search PVT LTD
+        </div>
+        <div class="socialppty">
+            <div>
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="assests/images/facebook.png" height="20px" width="20px"></a>
+            </div>
+            <div> <a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png"
+                        height="20px" width="20px"></a>
+            </div>
+            <div><a href="https://twitter.com" target="_blank"><img src="assests/images/twitter.png" height="20px"
+                        width="20px"></a></div>
+        </div>
+    </div>
 </body>
+
 </html>

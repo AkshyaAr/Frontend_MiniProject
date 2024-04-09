@@ -1,78 +1,152 @@
-img {
+header img {
     height: 60px;
     width: 60px;
     padding: 2px;
-    }
-    
-    #footer img { height: 20px;
-        width: 22px;
-    background-color: rosybrown; } 
-        table img { height: 150px;
-            width: 150px;      
-            margin: 15% 15% 15% 15%;
-            padding: 4% 4% 4% 4%;
-            border: 1px;
-            border-radius: 20px;
-            box-sizing: border-box; 
-            margin-right: 70px;
-            border: 10px;
-           
-    } 
-    #bodycnt{
-  overflow: auto;
+}
 
-    }
-        #floatimg{
-            margin-right: 25%;
-            margin-left: 25%;
-        }
-            #bodyppty{
-                left: 10px;
-                margin: 0;
-                background-color: #e0e0e0;
-                font-family: sans-serif;
-                position: fixed;
-                overflow-y: auto;
-                overflow-x: auto;
-                width: 100%;
-                height: 100%;
-            }   
-            header{
-                background-color: rosybrown;
-            }
-            header a{
-                height: 60px;
+.footer img {
+    height: 20px;
+    width: 22px;
+    margin: 5px;
+}
+
+.floatimg img {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px grey
+}
+
+.floatimg {
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.floatimg img {
+    margin: 50px;
+}
+
+.bodyppty {
+    margin: 0;
+    background-color: #e0e0e0;
+    font-family: sans-serif;
+    width: 100%;
+    height: 90%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: rosybrown;
+}
+
+header a {
+    height: 60px;
     width: 60px;
-            }
-            footer{
-                background-color: rosybrown;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;    
-            }
-            #footer #contact a{
-                height: 30px;
+}
+
+.row {
+    margin: 1px 1px 1px 1px;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.footer {
+    background-color: rosybrown;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 10%;
+    position: fixed;
+}
+
+.footer #contact a {
+    height: 30px;
     width: 70px;
-            }              
-            #social{
-                margin-left: 95%;
-                
-            }
-           
-            #headimg{
-                background-image: url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg");
-                height: 380px;
-  background-repeat: no-repeat;
-  background-attachment:scroll;  
-  background-size: cover;
-  background-position: 60% 60%;
-  text-align: center;
-            }
-        .container{
-            display: flex;
-            margin-bottom: 2%;
-        }
-        .container1{
-            display: flex;
-            padding: 2% 0% 0% 0%;
-        }
+    margin: 30px;
+}
+
+#social {
+    margin-left: 95%;
+
+}
+
+#headimg {
+    background-image: url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg");
+    height: 380px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: 60% 60%;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.container1 {
+    display: flex;
+    padding: 2% 0% 0% 0%;
+}
+
+.head {
+    width: 100%;
+    height: 10%;
+    position: fixed;
+}
+
+.socialppty {
+    display: flex;
+
+}
+
+#sub1,
+#sub2,
+#sub3,
+#sub4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.row:hover .image {
+    opacity: 0.8;
+}
+
+.row:hover .overlay {
+    opacity: 1;
+}
+
+.overlay {
+    top: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    /* Black see-through */
+    color: #f1f1f1;
+    height: 148px;
+    width: 148px;
+    border-radius: 18px;
+    transition: .1s ease;
+    opacity: 0;
+    color: white;
+    font-size: 10px;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.city:click .citytext {
+    background-color: transparent;
+
+}
+
+#citytext:focus {
+    outline: none;
+    /* Remove outline when focused */
+}

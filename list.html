@@ -1,77 +1,113 @@
 <html>
-<head>
-<link rel="stylesheet" href="styles\list.css">
-<title>List</title>
-</head>
-<body>
-<section id="listbody">
-<header>
-    <!-- img
-    //header name -->
-<div style="display: flex;">
-<div>
-    <img src="..\assests\images\logo.png"  alt="logo"></div>
-    <div style="margin-left: 90%;margin-top: 20px">
-<a href="login.html" style="text-decoration: none; color: black;" >Login</a>
-</div>
-</div>
-</header>
-<section id="listimg1">
-    <!-- //content -->
-    <section style="margin-left:40%;margin-top: 30px;">
-    <a href="#listimg1" style="text-decoration: none; color: black;padding: 2px;"><b>List View &emsp;</b></a>
-    <a href="#mapimg" style="text-decoration: none; color: black;padding: 2px;"><b>Map View</b></a>
-    </section>
-    <div class="container">
-<section class="cntppty">
-    <a href="detail.html">
-    <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" style="width: 65%;height: 65%;">
-</a>  
-    <p>
-    <h3><a href="detail.html" style="text-decoration: none; color: black;">Radisson Blu Hotel</a></h3></p>
-    <p><a href="detail.html" style="text-decoration: none; color: black;">5 Star</a></p>
-    <p><a href="detail.html" style="text-decoration: none; color: black;">New Delhi</a>
-</p>
-</section>
 
-<section class="cntppty">
-    <img src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg" style="width: 65%;height: 70%;">
-    <p><h3>
-    The Lalit New Delhi</p></h3>
-    <p>4.0 Star</p>
-    <p>New Delhi</p>
-</section>
-</div>
-<div class="container2">
-<section class="cntppty">
-    <img src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg" style="width:65%;height: 65%;">
-    <h3><p>Taj Palace</p></h3>
-        <p>4.0 Star</p>
-            <p>New Delhi</p>
-        </section>
-    </section>
+<head>
+    <link rel="stylesheet" href="styles\list.css">
+    <title>List</title>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu&subset=cyrillic,latin' rel='stylesheet' type='text/css' />
+    <style type="text/css">
+        body {
+            font-family: 'Ubuntu', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head" style="height: 10%;">
+        <div class="header">
+            <a href="index.html"><img src="..\assests\images\logo.png" alt="logo"></a>
+        </div>
+        <div class="header">
+            <a href="login.html" style="text-decoration: none; color: black;">Login</a>
+        </div>
     </div>
+    <div style="height: 80%;">
+        <div id="listimg1">
+            <!-- //content -->
+            <section style="margin-left:42%;margin-top: 30px;">
+                <a href="#listimg1" style="text-decoration: none; color: black;padding: 2px;"><b>List View
+                        &emsp;</b></a>
+                <a href="#mapimg" style="text-decoration: none; color: black;padding: 2px;"><b>Map View</b></a>
+
+            </section>
+        </div>
+        <div style="display: flex;margin-left: 100px;margin-right:100px;margin-top:20px;justify-content:space-around;">
+            <div class="evenimg" style="display: flex;background-color: lightgrey;width:450px;height:160px;">
+                <div>
+                    <a href="detail.html">
+                        <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
+                            style="width:150px;height: 160px;padding: 0px;">
+                    </a>
+                </div>
+                <div style="width: 50%;padding: 20px 20px 20px 20px;display:block;justify-content: space-around;">
+                    <div class="inner-div"><a href="detail.html" style="text-decoration: none; color: black;">
+                            <h5 style="margin: 0px;">Radisson Blu Hotel</h5>
+                        </a></div>
+                    <div class="inner-div"><a href="detail.html" style="text-decoration: none; color: black;">5 Star</a>
+                    </div>
+                    <div class="inner-div"><a hsref="detail.html" style="text-decoration: none; color: black;">New
+                            Delhi</a>
+                    </div>
+                </div>
+            </div>
+            <div class="evenimg" style="display: flex;background-color: lightgrey;width:450px">
+                <div>
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg"
+                        style="width:150px;height:160px;padding: 0px;">
+                </div>
+
+                <div style="width: 50%;padding: 20px 20px 20px 20px;display:block;justify-content: space-around;">
+                    <div class="inner-div">
+                        <h5 style="margin: 0px;">
+                            The Lalit New Delhi
+                        </h5>
+                    </div>
+                    <div class="inner-div">4.0 Star</div>
+                    <div class="inner-div">New Delhi</div>
+                </div>
+            </div>
+        </div>
+        <div style="display: flex;margin-top:20px;height:160px;margin-left: 22px;">
+            <div class="evenimg"
+                style="display: flex;background-color: lightgrey;width:450px;margin-left: 110px;height:160px ;">
+                <div class="inner-div">
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg"
+                        style="width:150px;height:160px;padding: 0px;">
+                </div>
+                <div style="width: 50%;padding: 20px 20px 20px 20px;display:block;justify-content: space-around;">
+                    <div>
+                        <h5 style="margin: 0px 8px 8px 0px;">
+                            Taj Palace
+                        </h5>
+                    </div>
+                    <div class="inner-div">4.0 Star</div>
+                    <div class="inner-div">New Delhi</div>
+                </div>
+            </div>
+        </div>
         <section id="mapimg" style="display:none;">
-            <img  src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png">
-    <p>MAP VIEW</p>
-</section>
-<footer id="listimg2">
-    <!-- //Footer -->
-    
-    <div class="container1">
+            <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png">
+            <p>MAP VIEW</p>
+        </section>
+    </div>
+    <div class="footer" style="height: 10%;">
         <div id="contact">
             <a href="contact.html" style="text-decoration: none; color: black;">Contact Us</a>
         </div>
-        <div style="margin-left: 90%;display: flex;">
+        <div style="text-align: center;">
+            © 2020 Room Search PVT LTD
+        </div>
+        <div class="socialppty">
             <div>
-     <a href="https://www.facebook.com" target="_blank">
-             <img src="assests/images/facebook.png"></a> </div>
-              <div> <a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png"></a> </div>
-                <div><a href="https://twitter.com" target="_blank"><img src="assests/images/twitter.png"></a></div> 
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="assests/images/facebook.png" height="20px" width="20px"></a>
+            </div>
+            <div> <a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png"
+                        height="20px" width="20px"></a>
+            </div>
+            <div><a href="https://twitter.com" target="_blank"><img src="assests/images/twitter.png" height="20px"
+                        width="20px"></a></div>
+        </div>
     </div>
-    </div>
-    <p style="text-align: center;">© 2020 Room Search PVT LTD</p>
-</footer>
-</section>
 </body>
+
 </html>

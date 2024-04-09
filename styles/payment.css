@@ -2,44 +2,85 @@ img {
     height: 60px;
     width: 60px;
     padding: 2px;
-    }
-    #pmtimg1 img { height: 500px;
-        width: 500px;
-         } 
-        #pmtimg1{
-            background-color: rgb(132,136,139);
-            margin-left: 25%;
-            margin-right: 25%;
-            margin-top: 2%;
-            margin-bottom: 2%;
-        }
-        #pmtimg2 img { height: 20px;
-            width: 22px; }
-            #bodyppty{
-            
-                position: relative;
-                background-color: #e0e0e0;
-                font-family: sans-serif;
+}
 
-            }
-            #custdetail{
-                margin: 2% 2% 2% 2%;
-            }
-            #totalinf{
-                margin: 2%;
-                border-radius:5px;
-  border: 1px solid black;
-  padding: 1% 2% 1% 2%;
-  margin: 20px;
+#pmtimg1 img {
+    height: 500px;
+    width: 500px;
+}
 
-            }
-            header{
-background-color: rosybrown;
-            }
-            footer{
-background-color: rosybrown;
-            }
-            .container1{
-                display: flex;
-                padding: 2% 0% 0% 0%;
-            }
+#pmtimg1 {
+    background-color: rgb(132, 136, 139);
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#pmtimg2 img {
+    height: 20px;
+    width: 22px;
+}
+
+#bodyppty {
+
+    position: relative;
+    background-color: #e0e0e0;
+
+}
+
+#custdetail {
+    margin: 2% 2% 2% 2%;
+}
+
+header {
+    background-color: rosybrown;
+    
+}
+
+footer {
+    background-color: rosybrown;
+}
+
+.container1 {
+    display: flex;
+    padding: 2% 0% 0% 0%;
+}
+
+.paymentcnt {
+    margin: 20px;
+    justify-content: center;
+}
+
+.footer {
+    background-color: rosybrown;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 10%;
+
+}
+
+.footer #contact a {
+    height: 30px;
+    width: 70px;
+    margin: 30px;
+}
+
+#social {
+    margin-left: 95%;
+
+}
+
+.socialppty {
+    display: flex;
+
+}
+
+.footer img {
+    height: 20px;
+    width: 22px;
+    margin: 5px;
+}
+
